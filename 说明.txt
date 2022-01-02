@@ -1,0 +1,16 @@
+1、
+    libs和src是在同一工程下
+2、
+    libs里的jar包要右键add....什么
+3、
+    jdbc.properties文件要在src下
+    文件里的内容
+        // atm1是用的某一数据库名字
+        url=jdbc:mysql://localhost:3306/atm1
+        user=root
+        password=zhu1234567890
+        driver=com.mysql.jdbc.Driver
+4、
+    测试时新建一个项目更好
+5、
+    注意Data类里的数据库执行语句中表的名字
